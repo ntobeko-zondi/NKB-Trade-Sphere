@@ -120,8 +120,8 @@ This separation improves maintainability, scalability, and testability.
 
 ### Authentication
 
-### - Landing Screen
-<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/22c64ca5-6701-464a-8b5b-b54a9043cb2f" /> ### - Signup Screen <img width="332" height="628" alt="Signup Page" src="https://github.com/user-attachments/assets/44ba2036-cdfe-4ae5-903f-2d3bb6b7c58a" />
+### - Landing Screen & Signup Screen 
+<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/22c64ca5-6701-464a-8b5b-b54a9043cb2f" /> <img width="332" height="628" alt="Signup Page" src="https://github.com/user-attachments/assets/44ba2036-cdfe-4ae5-903f-2d3bb6b7c58a" />
 
 ### Pop-Up Details
 
@@ -140,12 +140,8 @@ This separation improves maintainability, scalability, and testability.
 
 ### Sell Page 
 
-### - Sell Screen
-<img width="290" height="597" alt="Sell Page" src="https://github.com/user-attachments/assets/52d2eb87-bf4b-47c9-8ea7-baa738bff607" />
-
-
-### - Buying Screen
-<img width="316" height="636" alt="Buying Page" src="https://github.com/user-attachments/assets/f5feea07-f063-4840-9f70-f9d589d79daa" />
+### - Sell Screen & Buying Screen 
+<img width="290" height="597" alt="Sell Page" src="https://github.com/user-attachments/assets/52d2eb87-bf4b-47c9-8ea7-baa738bff607" /> <img width="316" height="636" alt="Buying Page" src="https://github.com/user-attachments/assets/f5feea07-f063-4840-9f70-f9d589d79daa" />
 
 ### Messages Page 
 
@@ -154,11 +150,8 @@ This separation improves maintainability, scalability, and testability.
 
 ### Profile
 
-### - Profile Screen
-<img width="295" height="590" alt="Profile Page" src="https://github.com/user-attachments/assets/35901aa6-00df-4813-adee-be4301d66772" />
-
-### - Wishlist Screen
-<img width="293" height="595" alt="Wishlist Page" src="https://github.com/user-attachments/assets/b1b0ef0b-9d61-4e2c-815b-dded34be869e" />
+### - Profile Screen &  Wishlist Screen
+<img width="295" height="590" alt="Profile Page" src="https://github.com/user-attachments/assets/35901aa6-00df-4813-adee-be4301d66772" /> <img width="293" height="595" alt="Wishlist Page" src="https://github.com/user-attachments/assets/b1b0ef0b-9d61-4e2c-815b-dded34be869e" />
 
 
 
