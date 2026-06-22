@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NKB Trade Sphere</string>
+    <string name="greeting">Welcome 👋</string>
+    <string name="username">Kabelo Nkosi</string>
+    <string name="search_hint">Search items, brands, locations…</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See all</string>
+    <string name="featured">Featured</string>
+    <string name="recommended">Recommended Items</string>
+    <string name="items_count_fmt">%1$d items</string>
+    <string name="chat_seller">Chat with Seller</string>
+    <string name="verified_seller">Verified Seller</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_sell">Sell</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_profile">Profile</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="saved_screen_title">Your wishlist</string>
+    <string name="saved_subtitle_items">%1$d items saved for you</string>
+    <string name="saved_subtitle_empty">Save listings you love — they show up here</string>
+    <string name="saved_empty_title">Nothing here yet</string>
+    <string name="saved_empty_hint">Tap the heart on any listing to add it to your wishlist. You can open it again from here anytime.</string>
+    <string name="saved_empty_sign_in">Sign in to see listings you have saved.</string>
+    <string name="saved_remove_from_wishlist">Remove from wishlist</string>
+    <string name="saved_removed_toast">Removed from wishlist</string>
+    <string name="notifications">Notifications</string>
+    <string name="stack_tap_hint">Long-press to view · Swipe to browse</string>
+    <string name="stack_empty_title">You\'ve seen it all!</string>
+    <string name="stack_empty_sub">No more items here.\nTry another category.</string>
+    <string name="stack_start_over">Start Over</string>
+    <string name="stack_saved_toast">♡ Saved</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="home_search_results_all">All items</string>
+    <string name="home_search_results_count">%1$d results</string>
+    <string name="home_search_no_results">No items match your search.\nTry different keywords.</string>
+    <string name="home_search_section_category">Category</string>
+    <string name="home_search_section_condition">Condition</string>
+    <string name="home_search_section_price">Price range (R)</string>
+    <string name="home_search_footer_results">%1$d RESULTS</string>
+
+    <!-- Login screen -->
+    <string name="login_tagline">Buy and sell with your community</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="login_terms">By continuing, you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_failed">Sign-in failed. Please try again.</string>
+    <string name="invalid_login">Invalid email or password. Create an account first.</string>
+    <string name="fill_email_password">Enter email and password.</string>
+    <string name="password_too_short">Password must be at least 8 characters and include letters and numbers.</string>
+    <string name="passwords_mismatch">Passwords do not match.</string>
+    <string name="sign_up_failed">Could not create account. Please try again.</string>
+    <string name="account_email_exists">An account with this email already exists. Sign in instead.</string>
+    <string name="profile_default_name">Trader</string>
+    <string name="profile_listings">My Listings</string>
+    <string name="profile_purchases">Purchases</string>
+    <string name="profile_settings">Settings</string>
+
+    <!-- Product detail (full-screen) -->
+    <string name="product_detail_back">Back</string>
+    <string name="product_buy_now">BUY NOW ›</string>
+    <string name="product_message">MESSAGE</string>
+    <string name="product_meta_location">%1$s</string>
+    <string name="product_meta_mid">👕 %1$s</string>
+    <string name="product_meta_time">%1$s</string>
+    <string name="product_meta_time_fallback">—</string>
+    <string name="product_meta_item_rating">%1$s avg</string>
+    <string name="product_wishlist_on">Saved to wishlist</string>
+    <string name="product_wishlist_off">Removed from wishlist</string>
+    <string name="product_buy_toast">Checkout: %1$s</string>
+    <string name="product_message_toast">Message %1$s</string>
+
+    <!-- Login/Auth screens -->
+    <string name="password">Password</string>
+    <string name="welcome_tradesphere">Welcome to TradeSphere</string>
+    <string name="sign_in_continue">Sign in to continue</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="need_account">Need an account?</string>
+    <string name="email">Email</string>
+    <string name="tagline">Buy. Sell. Connect.</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="register">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_instructions">Enter your details below</string>
+    <string name="back_to_login">Back to Login</string>
+    
+    <!-- Fragment placeholders -->
+    <string name="sell_fragment">Sell Fragment</string>
+    <string name="messages_fragment">Messages Fragment</string>
+    
+    <!-- Product labels -->
+    <string name="featured_label">Featured</string>
+    <string name="chat_with_seller">💬 Chat with Seller</string>
+    <string name="welcome_to_tradesphere">WELCOME TO TRADESPHERE</string>
+    <string name="interests_title">Pick your interests</string>
+    <string name="interests_subtitle">Choose categories you love so your home feed feels personal from day one.</string>
+    <string name="interests_selection_count">%1$d of %2$d selected</string>
+    <string name="interests_min_required">Pick at least %1$d interests to continue.</string>
+    <string name="continue_to_home">Continue to Home</string>
+    <string name="skip_for_now">Skip for now</string>
+</resources>

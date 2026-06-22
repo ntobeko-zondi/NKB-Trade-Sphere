@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#F6E8DD</color>
+    <color name="badge_bg_fill">#FFF3E8</color>
+    <color name="badge_on_surface_text">#5C2E0C</color>
+    <color name="card_bg">#FFF9F5</color>
+    <color name="chip_bg">#99FFFFFF</color>
+    <color name="chip_border">#2EFF6B1A</color>
+    <color name="chip_text">#3A1E08</color>
+    <color name="colorBackground">#F5EDE0</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#FF6B1A</color>
+    <color name="colorPrimaryVariant">#C04A00</color>
+    <color name="colorSurface">#FFF8F2</color>
+    <color name="colorTextPrimary">#1A1008</color>
+    <color name="colorTextSecondary">#5C3E28</color>
+    <color name="divider">#E6E6E6</color>
+    <color name="green">#22C55E</color>
+    <color name="home_surface_bg">#F4E3D7</color>
+    <color name="icon_circle_fill">#66A14A14</color>
+    <color name="icon_circle_stroke">#55FFD0AF</color>
+    <color name="loc_chip_bg">#26FF6B1A</color>
+    <color name="loc_chip_border">#4DFF6B1A</color>
+    <color name="loc_chip_text">#C04A00</color>
+    <color name="nav_bg">#FFEEDD</color>
+    <color name="nav_float_bar_slot_selected_fill">#33FF6B1A</color>
+    <color name="nav_float_bar_slot_selected_stroke">#66FF6B1A</color>
+    <color name="nav_float_bar_under_shadow">#26000000</color>
+    <color name="nav_float_grad_bottom">#99D7BBA8</color>
+    <color name="nav_float_grad_mid">#B3F6DCC9</color>
+    <color name="nav_float_grad_top">#D9FFF6EE</color>
+    <color name="nav_float_selected_fill">#66FFF7EF</color>
+    <color name="nav_float_stroke">#80FFE8D7</color>
+    <color name="nav_float_unselected_light">#D8CFC7</color>
+    <color name="on_photo_seller_meta">#D9F5EDE0</color>
+    <color name="on_photo_seller_name">#FFFFFF</color>
+    <color name="orange">#FF6B1A</color>
+    <color name="orange_dark">#C04A00</color>
+    <color name="orange_light">#FFF0E6</color>
+    <color name="orange_mid">#FF9240</color>
+    <color name="orange_pale">#FFEEDD</color>
+    <color name="orange_primary">#F97316</color>
+    <color name="pill_stroke">#33FF6B1A</color>
+    <color name="pill_surface">#E0FFFFFF</color>
+    <color name="product_detail_badge_bg">#E6FFF3E8</color>
+    <color name="product_detail_bg">#F6E8DD</color>
+    <color name="product_detail_circle_btn">#66A14A14</color>
+    <color name="product_detail_meta">#7A4A2D</color>
+    <color name="product_detail_surface">#FFF8F1</color>
+    <color name="profile_back_icon_tint">#7A3A12</color>
+    <color name="profile_edit_bg">#F4E2D3</color>
+    <color name="profile_edit_input_bg">#FFF8F1</color>
+    <color name="profile_edit_label">#8A4E2B</color>
+    <color name="profile_edit_text_primary">#2F1B0E</color>
+    <color name="search_bar_inner">#FFF9F4</color>
+    <color name="search_border">#2EFF6B1A</color>
+    <color name="search_chip_border">#B88058</color>
+    <color name="search_chip_text">#6D3920</color>
+    <color name="search_panel_bg">#F3E1D2</color>
+    <color name="search_price_field_bg">#FFF8F2</color>
+    <color name="search_price_field_stroke">#D7A981</color>
+    <color name="search_section_label">#A85A26</color>
+    <color name="sheet_divider">#30A07850</color>
+    <color name="sheet_handle">#B59878</color>
+    <color name="sheet_photo_pill_bg">#CCFFFFFF</color>
+    <color name="surface">#FFF7F0</color>
+    <color name="surface_body">#F6E8DD</color>
+    <color name="surface_elevated">#FFF8F1</color>
+    <color name="surface_s2">#F7F7F7</color>
+    <color name="text_hint">#6E6E6E</color>
+    <color name="text_muted">#A07850</color>
+    <color name="text_primary">#141414</color>
+    <color name="text_secondary">#5C3E28</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="floating_nav_clearance_fallback">120dp</dimen>
+    <dimen name="floating_nav_content_guard">22dp</dimen>
+    <dimen name="interest_chip_stroke_width">1dp</dimen>
+    <dimen name="nav_float_bar_corner">34dp</dimen>
+    <dimen name="nav_float_bar_elevation">9dp</dimen>
+    <dimen name="nav_float_bar_pad_h">8dp</dimen>
+    <dimen name="nav_float_bar_pad_v">10dp</dimen>
+    <dimen name="nav_float_bar_search_icon_size">30dp</dimen>
+    <dimen name="nav_float_bar_slot_radius">28dp</dimen>
+    <dimen name="nav_float_bar_stroke_width">1.25dp</dimen>
+    <dimen name="nav_float_chip_elevation">6dp</dimen>
+    <dimen name="nav_float_chip_gap">8dp</dimen>
+    <dimen name="nav_float_chip_size">46dp</dimen>
+    <dimen name="nav_float_corner">23dp</dimen>
+    <dimen name="nav_float_icon_size">24dp</dimen>
+    <dimen name="nav_float_label_margin_top">3dp</dimen>
+    <dimen name="nav_float_label_text_size">10.5sp</dimen>
+    <dimen name="nav_float_row_pad_h">6dp</dimen>
+    <dimen name="nav_float_row_pad_v">12dp</dimen>
+    <dimen name="nav_float_search_max_width">228dp</dimen>
+    <dimen name="nav_float_search_min_width">108dp</dimen>
+    <dimen name="nav_float_search_text_size">13sp</dimen>
+    <item name="nav_scroll_bottom_inset" type="id"/>
+    <item name="tag_swipe_product" type="id"/>
+    <item name="tag_swipe_stack_pos" type="id"/>
+    <string name="account_email_exists">An account with this email already exists. Sign in instead.</string>
+    <string name="app_name">NKB Trade Sphere</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="categories">Categories</string>
+    <string name="chat_seller">Chat with Seller</string>
+    <string name="chat_with_seller">💬 Chat with Seller</string>
+    <string name="continue_to_home">Continue to Home</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="featured">Featured</string>
+    <string name="featured_label">Featured</string>
+    <string name="fill_email_password">Enter email and password.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="greeting">Welcome 👋</string>
+    <string name="home_search_footer_results">%1$d RESULTS</string>
+    <string name="home_search_no_results">No items match your search.\nTry different keywords.</string>
+    <string name="home_search_results_all">All items</string>
+    <string name="home_search_results_count">%1$d results</string>
+    <string name="home_search_section_category">Category</string>
+    <string name="home_search_section_condition">Condition</string>
+    <string name="home_search_section_price">Price range (R)</string>
+    <string name="interests_min_required">Pick at least %1$d interests to continue.</string>
+    <string name="interests_selection_count">%1$d of %2$d selected</string>
+    <string name="interests_subtitle">Choose categories you love so your home feed feels personal from day one.</string>
+    <string name="interests_title">Pick your interests</string>
+    <string name="invalid_login">Invalid email or password. Create an account first.</string>
+    <string name="items_count_fmt">%1$d items</string>
+    <string name="log_in">Log In</string>
+    <string name="login_tagline">Buy and sell with your community</string>
+    <string name="login_terms">By continuing, you agree to our Terms of Service and Privacy Policy.</string>
+    <string name="messages_fragment">Messages Fragment</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_messages">Messages</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_sell">Sell</string>
+    <string name="need_account">Need an account?</string>
+    <string name="notifications">Notifications</string>
+    <string name="password">Password</string>
+    <string name="password_too_short">Password must be at least 8 characters and include letters and numbers.</string>
+    <string name="passwords_mismatch">Passwords do not match.</string>
+    <string name="product_buy_now">BUY NOW ›</string>
+    <string name="product_buy_toast">Checkout: %1$s</string>
+    <string name="product_detail_back">Back</string>
+    <string name="product_message">MESSAGE</string>
+    <string name="product_message_toast">Message %1$s</string>
+    <string name="product_meta_item_rating">%1$s avg</string>
+    <string name="product_meta_location">%1$s</string>
+    <string name="product_meta_mid">👕 %1$s</string>
+    <string name="product_meta_time">%1$s</string>
+    <string name="product_meta_time_fallback">—</string>
+    <string name="product_wishlist_off">Removed from wishlist</string>
+    <string name="product_wishlist_on">Saved to wishlist</string>
+    <string name="profile_default_name">Trader</string>
+    <string name="profile_listings">My Listings</string>
+    <string name="profile_purchases">Purchases</string>
+    <string name="profile_settings">Settings</string>
+    <string name="recommended">Recommended Items</string>
+    <string name="register">Register</string>
+    <string name="reset_instructions">Enter your details below</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="saved_empty_hint">Tap the heart on any listing to add it to your wishlist. You can open it again from here anytime.</string>
+    <string name="saved_empty_sign_in">Sign in to see listings you have saved.</string>
+    <string name="saved_empty_title">Nothing here yet</string>
+    <string name="saved_remove_from_wishlist">Remove from wishlist</string>
+    <string name="saved_removed_toast">Removed from wishlist</string>
+    <string name="saved_screen_title">Your wishlist</string>
+    <string name="saved_subtitle_empty">Save listings you love — they show up here</string>
+    <string name="saved_subtitle_items">%1$d items saved for you</string>
+    <string name="search_cancel">Cancel</string>
+    <string name="search_hint">Search items, brands, locations…</string>
+    <string name="see_all">See all</string>
+    <string name="sell_fragment">Sell Fragment</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_continue">Sign in to continue</string>
+    <string name="sign_in_failed">Sign-in failed. Please try again.</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_failed">Could not create account. Please try again.</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="stack_empty_sub">No more items here.\nTry another category.</string>
+    <string name="stack_empty_title">You\'ve seen it all!</string>
+    <string name="stack_saved_toast">♡ Saved</string>
+    <string name="stack_start_over">Start Over</string>
+    <string name="stack_tap_hint">Long-press to view · Swipe to browse</string>
+    <string name="tagline">Buy. Sell. Connect.</string>
+    <string name="username">Kabelo Nkosi</string>
+    <string name="verified_seller">Verified Seller</string>
+    <string name="welcome_to_tradesphere">WELCOME TO TRADESPHERE</string>
+    <string name="welcome_tradesphere">Welcome to TradeSphere</string>
+    <string name="wishlist">Wishlist</string>
+    <style name="Base.Theme.NKBTradeSphere" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        
+        <item name="android:fontFamily">sans-serif</item>
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor" ns1:targetApi="p">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">true</item>
+    </style>
+    <style name="BottomSheetDialogTheme" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyleWrapper</item>
+    </style>
+    <style name="BottomSheetStyleWrapper" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="CircleShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.NKBTradeSphere" parent="Base.Theme.NKBTradeSphere"/>
+    <style name="Theme.NKBTradeSphere.ProductDetail" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/product_detail_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/product_detail_bg</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/product_detail_surface</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Theme.NKBTradeSphere.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorPrimary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/colorPrimaryVariant</item>
+        <item name="postSplashScreenTheme">@style/Theme.NKBTradeSphere</item>
+    </style>
+</resources>

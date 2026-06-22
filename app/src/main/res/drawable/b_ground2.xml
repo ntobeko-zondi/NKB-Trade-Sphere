@@ -1,0 +1,21 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background image -->
+    <item>
+        <bitmap
+            android:src="@drawable/b_ground"
+            android:scaleType="centerCrop"/>
+    </item>
+
+    <!-- Soft orange gradient overlay -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#00FF8C00"
+                android:centerColor="#33FF8C00"
+                android:endColor="#66FF8C00"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+</layer-list>

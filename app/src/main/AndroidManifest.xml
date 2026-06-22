@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/h_logo"
+        android:label="TradeSphere"
+        android:roundIcon="@drawable/h_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NKBTradeSphere">
+        <activity
+            android:name=".ui.auth.NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.CreateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.onboarding.InterestsOnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.onboarding.OnboardingInterestScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ui.welcome.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ui.product.ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.product.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.AllCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.CategoryListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConversationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationCenterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SavedItemsActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="background">#000000</color>
+    <color name="badge_bg_fill">#332A1E10</color>
+    <color name="badge_on_surface_text">#FFECD6</color>
+    <color name="card_bg">#121212</color>
+    <color name="chip_bg">#14FFFFFF</color>
+    <color name="chip_border">#21FFFFFF</color>
+    <color name="chip_text">#D9FFFFFF</color>
+    <color name="colorBackground">#000000</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimary">#FF6B1A</color>
+    <color name="colorPrimaryVariant">#C04A00</color>
+    <color name="colorSurface">#000000</color>
+    <color name="colorTextPrimary">#F2F2F2</color>
+    <color name="colorTextSecondary">#CCCCCC</color>
+    <color name="divider">#262626</color>
+    <color name="green">#22C55E</color>
+    <color name="home_surface_bg">#000000</color>
+    <color name="icon_circle_fill">#1A1A1A</color>
+    <color name="icon_circle_stroke">#21FF6B1A</color>
+    <color name="loc_chip_bg">#2EFF6B1A</color>
+    <color name="loc_chip_border">#59FF6B1A</color>
+    <color name="loc_chip_text">#FFBA72</color>
+    <color name="nav_bg">#000000</color>
+    <color name="nav_float_bar_slot_selected_fill">#40FF6B1A</color>
+    <color name="nav_float_bar_slot_selected_stroke">#77FF9240</color>
+    <color name="nav_float_bar_under_shadow">#42000000</color>
+    <color name="nav_float_grad_bottom">#4D000000</color>
+    <color name="nav_float_grad_mid">#33000000</color>
+    <color name="nav_float_grad_top">#54FFFFFF</color>
+    <color name="nav_float_selected_fill">#2BFFFFFF</color>
+    <color name="nav_float_stroke">#66FFFFFF</color>
+    <color name="on_photo_seller_meta">#D9C4B49A</color>
+    <color name="on_photo_seller_name">#FFFFFF</color>
+    <color name="orange">#FF6B1A</color>
+    <color name="orange_dark">#C04A00</color>
+    <color name="orange_light">#FFF0E6</color>
+    <color name="orange_mid">#FF9240</color>
+    <color name="orange_pale">#2A1E10</color>
+    <color name="orange_primary">#F97316</color>
+    <color name="pill_stroke">#1AFFFFFF</color>
+    <color name="pill_surface">#8C000000</color>
+    <color name="product_detail_badge_bg">#2EFF6B1A</color>
+    <color name="product_detail_bg">#000000</color>
+    <color name="product_detail_circle_btn">#2A1A1A1A</color>
+    <color name="product_detail_meta">#E0C4A8</color>
+    <color name="product_detail_surface">#121212</color>
+    <color name="profile_back_icon_tint">#FFFFFF</color>
+    <color name="profile_edit_bg">#5E2506</color>
+    <color name="profile_edit_input_bg">#824215</color>
+    <color name="profile_edit_label">#FFF1D8</color>
+    <color name="profile_edit_text_primary">#FFFFFF</color>
+    <color name="search_bar_inner">#161616</color>
+    <color name="search_border">#21FF6B1A</color>
+    <color name="search_chip_border">#8A5A38</color>
+    <color name="search_chip_text">#EAD7C7</color>
+    <color name="search_panel_bg">#0B0B0B</color>
+    <color name="search_price_field_bg">#171717</color>
+    <color name="search_price_field_stroke">#9E6A45</color>
+    <color name="search_section_label">#FFB07A</color>
+    <color name="sheet_divider">#28F5EDE0</color>
+    <color name="sheet_handle">#6B5C4A</color>
+    <color name="sheet_photo_pill_bg">#D916100C</color>
+    <color name="surface">#000000</color>
+    <color name="surface_body">#000000</color>
+    <color name="surface_elevated">#0A0A0A</color>
+    <color name="surface_s2">#121212</color>
+    <color name="text_hint">#9A9A9A</color>
+    <color name="text_muted">#9A9A9A</color>
+    <color name="text_primary">#F2F2F2</color>
+    <color name="text_secondary">#CCCCCC</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <style name="Base.Theme.NKBTradeSphere" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor" ns1:targetApi="p">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+    <style name="Theme.NKBTradeSphere.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/surface</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
+        <item name="postSplashScreenTheme">@style/Theme.NKBTradeSphere</item>
+    </style>
+</resources>

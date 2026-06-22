@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Single-piece frosted glass bar: stronger frosted body + controlled sheen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer ambient shadow (soft, not heavy) -->
+    <item
+        android:bottom="0dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/nav_float_bar_corner" />
+            <solid android:color="#22000000" />
+        </shape>
+    </item>
+
+    <!-- Frosted body -->
+    <item
+        android:bottom="2dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/nav_float_bar_corner" />
+            <gradient
+                android:angle="90"
+                android:startColor="#BFFFFFFF"
+                android:centerColor="#66FFFFFF"
+                android:endColor="#33FFFFFF"
+                android:type="linear" />
+            <stroke
+                android:width="@dimen/nav_float_bar_stroke_width"
+                android:color="#99FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Tight top sheen to boost gloss without creating a second-bar illusion -->
+    <item
+        android:bottom="50dp"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="3dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/nav_float_bar_corner" />
+            <gradient
+                android:angle="270"
+                android:startColor="#66FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

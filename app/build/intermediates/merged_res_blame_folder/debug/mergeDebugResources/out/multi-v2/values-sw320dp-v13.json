@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.nkbtradesphere.app-mergeDebugResources-34:/values-sw320dp-v13/values-sw320dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\khoda\\OneDrive\\Desktop\\Latest\\NKB-Trade-Sphere\\app\\src\\main\\res\\values-sw320dp\\dimens.xml",
+                    "from": {
+                        "startLines": "5,8,2,3,4,6,7,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "210,384,57,109,158,273,332,434,494",
+                        "endColumns": "61,48,50,47,50,57,50,58,57",
+                        "endOffsets": "267,428,103,152,204,326,378,488,547"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,166,217,265,316,374,425,484",
+                        "endColumns": "61,48,50,47,50,57,50,58,57",
+                        "endOffsets": "112,161,212,260,311,369,420,479,537"
+                    }
+                }
+            ]
+        }
+    ]
+}

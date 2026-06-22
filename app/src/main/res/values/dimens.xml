@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used before floating nav is measured; keep in sync with ~chip height + vertical padding -->
+    <!-- ~ bar vertical padding + chip + outer row pad; used before first measure -->
+    <dimen name="floating_nav_clearance_fallback">120dp</dimen>
+    <!-- Extra scroll past dock (elevation shadow + last line of text) -->
+    <dimen name="floating_nav_content_guard">22dp</dimen>
+
+    <dimen name="nav_float_chip_size">46dp</dimen>
+    <dimen name="nav_float_corner">23dp</dimen>
+    <dimen name="nav_float_icon_size">24dp</dimen>
+    <dimen name="nav_float_bar_search_icon_size">30dp</dimen>
+    <dimen name="nav_float_search_text_size">13sp</dimen>
+    <dimen name="nav_float_label_text_size">10.5sp</dimen>
+    <dimen name="nav_float_label_margin_top">3dp</dimen>
+    <dimen name="nav_float_row_pad_v">12dp</dimen>
+    <dimen name="nav_float_row_pad_h">6dp</dimen>
+    <dimen name="nav_float_chip_gap">8dp</dimen>
+    <dimen name="nav_float_search_max_width">228dp</dimen>
+    <dimen name="nav_float_search_min_width">108dp</dimen>
+    <dimen name="nav_float_chip_elevation">6dp</dimen>
+
+    <!-- Single glossy nav bar -->
+    <dimen name="nav_float_bar_corner">34dp</dimen>
+    <dimen name="nav_float_bar_stroke_width">1.25dp</dimen>
+    <dimen name="nav_float_bar_slot_radius">28dp</dimen>
+    <dimen name="nav_float_bar_elevation">9dp</dimen>
+    <dimen name="nav_float_bar_pad_h">8dp</dimen>
+    <dimen name="nav_float_bar_pad_v">10dp</dimen>
+    <dimen name="interest_chip_stroke_width">1dp</dimen>
+</resources>

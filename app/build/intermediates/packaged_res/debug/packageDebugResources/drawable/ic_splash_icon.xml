@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen icon — white-only version of the NKB Tradesphere brand mark
+    (globe arc + storefront). Designed for display on the primary orange background.
+    Viewport scaled to 240×240 as recommended by the SplashScreen API.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Globe arc -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M36,104 C36,56 76,24 120,24 C164,24 204,56 204,104"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="10" />
+
+    <!-- Storefront awning -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,112 L120,76 L184,112 L184,120 L56,120 Z" />
+
+    <!-- Shop body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,120 L176,120 L172,196 C171,204 164,210 154,210 L86,210 C76,210 69,204 68,196 Z" />
+
+    <!-- Door — semi-transparent so it reads on the white body -->
+    <path
+        android:fillColor="#44000000"
+        android:pathData="M104,144 L136,144 L136,210 L104,210 Z" />
+
+    <!-- Window -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M76,132 L96,132 L96,152 L76,152 Z" />
+</vector>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_body"
+    android:clipChildren="false">
+
+    <!-- Full-bleed: content scrolls under the floating dock -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Floating dock: width-capped so it scales on tablets; chips sit over scrolling content -->
+    <FrameLayout
+        android:id="@+id/floating_nav_host"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:outlineProvider="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="520dp"
+        app:layout_constraintWidth_percent="0.96">
+
+        <LinearLayout
+            android:id="@+id/floating_nav_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/nav_float_row_pad_h"
+            android:paddingTop="@dimen/nav_float_row_pad_v"
+            android:paddingEnd="@dimen/nav_float_row_pad_h"
+            android:paddingBottom="@dimen/nav_float_row_pad_v">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/nav_float_bar_glass"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="@dimen/nav_float_bar_elevation"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/nav_float_bar_pad_h"
+                android:paddingTop="@dimen/nav_float_bar_pad_v"
+                android:paddingEnd="@dimen/nav_float_bar_pad_h"
+                android:paddingBottom="@dimen/nav_float_bar_pad_v">
+
+                <LinearLayout
+                    android:id="@+id/nav_home"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/nav_float_bar_item_bg"
+                    android:clickable="true"
+                    android:contentDescription="@string/nav_home"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/nav_float_icon_size"
+                        android:layout_height="@dimen/nav_float_icon_size"
+                        android:duplicateParentState="true"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_nav_bar_home"
+                        app:tint="@color/nav_float_bar_icon_tint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/nav_float_label_margin_top"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:importantForAccessibility="no"
+                        android:maxLines="1"
+                        android:text="@string/nav_home"
+                        android:textColor="@color/nav_float_label"
+                        android:textSize="@dimen/nav_float_label_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_search"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/nav_float_bar_item_bg"
+                    android:clickable="true"
+                    android:contentDescription="@string/nav_search"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/nav_float_bar_search_icon_size"
+                        android:layout_height="@dimen/nav_float_bar_search_icon_size"
+                        android:duplicateParentState="true"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_nav_bar_search"
+                        app:tint="@color/nav_float_bar_icon_tint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/nav_float_label_margin_top"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:importantForAccessibility="no"
+                        android:maxLines="1"
+                        android:text="@string/nav_search"
+                        android:textColor="@color/nav_float_label"
+                        android:textSize="@dimen/nav_float_label_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_sell"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/nav_float_bar_item_bg"
+                    android:clickable="true"
+                    android:contentDescription="@string/nav_sell"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/nav_float_icon_size"
+                        android:layout_height="@dimen/nav_float_icon_size"
+                        android:duplicateParentState="true"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_nav_bar_add"
+                        app:tint="@color/nav_float_bar_icon_tint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/nav_float_label_margin_top"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:importantForAccessibility="no"
+                        android:maxLines="1"
+                        android:text="@string/nav_sell"
+                        android:textColor="@color/nav_float_label"
+                        android:textSize="@dimen/nav_float_label_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_messages"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/nav_float_bar_item_bg"
+                    android:clickable="true"
+                    android:contentDescription="@string/nav_messages"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/nav_float_icon_size"
+                        android:layout_height="@dimen/nav_float_icon_size"
+                        android:duplicateParentState="true"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_nav_bar_message"
+                        app:tint="@color/nav_float_bar_icon_tint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/nav_float_label_margin_top"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:importantForAccessibility="no"
+                        android:maxLines="1"
+                        android:text="@string/nav_messages"
+                        android:textColor="@color/nav_float_label"
+                        android:textSize="@dimen/nav_float_label_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/nav_float_bar_item_bg"
+                    android:clickable="true"
+                    android:contentDescription="@string/nav_profile"
+                    android:focusable="true"
+                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/nav_float_icon_size"
+                        android:layout_height="@dimen/nav_float_icon_size"
+                        android:duplicateParentState="true"
+                        android:importantForAccessibility="no"
+                        android:src="@drawable/ic_nav_bar_person"
+                        app:tint="@color/nav_float_bar_icon_tint" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/nav_float_label_margin_top"
+                        android:duplicateParentState="true"
+                        android:ellipsize="end"
+                        android:importantForAccessibility="no"
+                        android:maxLines="1"
+                        android:text="@string/nav_profile"
+                        android:textColor="@color/nav_float_label"
+                        android:textSize="@dimen/nav_float_label_text_size"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg_wow">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/nav_scroll_bottom_inset"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:overScrollMode="always">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <!-- Header -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingTop="18dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="12dp">
+
+                <FrameLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="13dp"
+                    android:background="@drawable/avatar_ring_bg"
+                    android:padding="3dp">
+
+                    <ImageView
+                        android:id="@+id/ivUserAvatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/username"
+                        android:scaleType="centerCrop" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvGreeting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.09"
+                        android:text="@string/greeting"
+                        android:textAllCaps="true"
+                        android:textColor="@color/text_muted"
+                        android:textSize="14.5sp" />
+
+                    <TextView
+                        android:id="@+id/tvUsername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-medium"
+                        android:maxLines="2"
+                        android:text="@string/username"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvThemeToggle"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/circle_icon_bg"
+                    android:gravity="center"
+                    android:text="☀️"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/ivWishlist"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/circle_icon_bg"
+                    android:contentDescription="@string/wishlist"
+                    android:padding="12dp"
+                    android:src="@drawable/ic_wishlist"
+                    app:tint="@color/text_primary" />
+
+                <FrameLayout
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false">
+
+                    <ImageView
+                        android:id="@+id/ivNotification"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/circle_icon_bg"
+                        android:contentDescription="@string/notifications"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_notification"
+                        app:tint="@color/text_primary" />
+
+                    <TextView
+                        android:id="@+id/tvNotifBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|end"
+                        android:layout_marginTop="-4dp"
+                        android:layout_marginEnd="-4dp"
+                        android:background="@drawable/notif_badge_bg"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:minWidth="20dp"
+                        android:minHeight="20dp"
+                        android:paddingStart="6dp"
+                        android:paddingTop="3dp"
+                        android:paddingEnd="6dp"
+                        android:paddingBottom="3dp"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        tools:ignore="HardcodedText" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <!-- Search row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="20dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="18dp">
+
+                <LinearLayout
+                    android:id="@+id/cardSearch"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_bar_bg"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="14dp"
+                    android:paddingTop="13dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="13dp">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="10dp"
+                        android:contentDescription="@null"
+                        android:src="@drawable/ic_search"
+                        app:tint="@color/text_muted"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:letterSpacing="0.02"
+                        android:text="@string/search_hint"
+                        android:textColor="@color/text_muted"
+                        android:textSize="14.5sp" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnSearchFilter"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/shape_filter_button_bg"
+                    android:contentDescription="@string/nav_search"
+                    android:padding="11dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_filter_lines" />
+            </LinearLayout>
+
+            <!-- Categories -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/categories"
+                        android:textColor="@color/text_primary"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvSeeAllCategories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.07"
+                        android:text="@string/see_all"
+                        android:textAllCaps="true"
+                        android:textColor="@color/orange"
+                        android:textSize="10.5sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCategories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:overScrollMode="never"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp" />
+            </LinearLayout>
+
+            <!-- Recommended -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"
+                android:paddingTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/recommended"
+                        android:textColor="@color/text_primary"
+                        android:textSize="23sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRecCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12dp"
+                        android:letterSpacing="0.03"
+                        android:textColor="@color/text_muted"
+                        android:textSize="10.5sp"
+                        tools:text="8 items" />
+
+                    <TextView
+                        android:id="@+id/tvSeeAllRecommended"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.07"
+                        android:text="@string/see_all"
+                        android:textAllCaps="true"
+                        android:textColor="@color/orange"
+                        android:textSize="10.5sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="352dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingBottom="12dp">
+
+                    <com.example.nkbtradesphere.ui.home.SwipeCardStackView
+                        android:id="@+id/swipeStack"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:paddingBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/tvStackTapHint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginBottom="6dp"
+                        android:background="@drawable/search_bar_bg"
+                        android:paddingStart="13dp"
+                        android:paddingTop="4dp"
+                        android:paddingEnd="13dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/stack_tap_hint"
+                        android:textColor="@color/text_muted"
+                        android:textSize="10sp" />
+
+                    <LinearLayout
+                        android:id="@+id/layoutStackEmpty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="30dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🎉"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="@string/stack_empty_title"
+                            android:textColor="@color/text_primary"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:lineSpacingMultiplier="1.4"
+                            android:text="@string/stack_empty_sub"
+                            android:textColor="@color/text_muted"
+                            android:textSize="13sp" />
+
+                        <Button
+                            android:id="@+id/btnStackStartOver"
+                            style="@style/Widget.Material3.Button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/stack_start_over" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.example.nkbtradesphere.ui.home.HomeSearchOverlay
+        android:id="@+id/homeSearchOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="28dp"
+        android:visibility="gone" />
+</FrameLayout>

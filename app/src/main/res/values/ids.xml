@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MainActivity applies floating-nav bottom clearance as paddingBottom here (not on fragment_container). -->
+    <item name="nav_scroll_bottom_inset" type="id" />
+    <item name="tag_swipe_product" type="id" />
+    <item name="tag_swipe_stack_pos" type="id" />
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#F7E8DD"
+                android:centerColor="#F2DDCE"
+                android:endColor="#EBCFB9" />
+        </shape>
+    </item>
+    <item android:top="-170dp" android:left="-90dp">
+        <shape android:shape="oval">
+            <size android:width="430dp" android:height="430dp" />
+            <gradient
+                android:type="radial"
+                android:gradientRadius="320dp"
+                android:startColor="#8CFF8A3D"
+                android:endColor="#00FF8A3D" />
+        </shape>
+    </item>
+    <item android:top="-80dp" android:right="-100dp">
+        <shape android:shape="oval">
+            <size android:width="390dp" android:height="390dp" />
+            <gradient
+                android:type="radial"
+                android:gradientRadius="300dp"
+                android:startColor="#66FFB273"
+                android:endColor="#00FFB273" />
+        </shape>
+    </item>
+
+    <!-- Soft top veil to keep the pretty glow concentrated near header -->
+    <item android:bottom="520dp">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:startColor="#26FFFFFF"
+                android:endColor="#00FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NKBTradeSphere" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Roboto as the app-wide default font -->
+        <item name="android:fontFamily">sans-serif</item>
+        <!-- Make status bar transparent so content can draw behind it -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Same for system nav: no opaque “shoebox” under the floating dock -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="p">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="Theme.NKBTradeSphere" parent="Base.Theme.NKBTradeSphere" />
+
+    <!-- Full-screen product detail: dark boutique UI -->
+    <style name="Theme.NKBTradeSphere.ProductDetail" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/product_detail_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/product_detail_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/product_detail_surface</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Splash screen: orange background, white brand icon, transitions into the main theme -->
+    <style name="Theme.NKBTradeSphere.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/colorPrimary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/colorPrimaryVariant</item>
+        <item name="postSplashScreenTheme">@style/Theme.NKBTradeSphere</item>
+    </style>
+
+    <style name="CircleShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="BottomSheetStyleWrapper" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

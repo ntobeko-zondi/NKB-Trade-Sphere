@@ -1,0 +1,408 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:2:1-77:12
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\91bf9c389d39bc5e529ff1c6ae3923a5\workspace\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e6b3998ca2c1baedabab38ae0586e159\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\231f1a58326eecfb2cb8f67ea897931a\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\c5f643bb930d6f6f6c81e796734080f9\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4fa7333f1dc24511d1c4cbd659df5514\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\df11bf7ddf3d65f6e5d7b532b57a05b1\workspace\transformed\viewpager2-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\cccefe9112c123e6e3e96bca4094e0f7\workspace\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bc3ade63ed36fcf23ba14dd8c5181319\workspace\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\446fa7eb4f3c6f23ef2c47ac16ad23ea\workspace\transformed\flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d03e0f43523c59ac21b12ac1339b8183\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\598868d9412f3b970d52627ff940f4d0\workspace\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\0213f09af86291e56ee782c645b39e16\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47d9db021f01f8324eb59a5fb5490163\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\079b1e0734101344d19c87f949cd595e\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f4961653a3d465575b24bc7337407af1\workspace\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f394b7cf309e817a297fc50861c747e2\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2b123f0b0d98e55a0f93b646879649e8\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2a034a0dbaf1816c7d53bc955273bb20\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f22528ff1c2294e1b21c25406c37f54d\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\405da2c93fb0b5ad51179ce147e3e2a3\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bf9aebcff47c1a21d3e44ddc827bc0a9\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2806b68d0841c53d64ce2c129ccd67a7\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\476850254185f5c60b1a62bfb96c959d\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\aade5fc129a8ffeec201aaf0561ba6d2\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47f13f2c8dbdda4a6fba6436aae40bb3\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\875dabbe62530ff5d1247c2c76423093\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\ec0ce40d766e0a5b46752ef220b65342\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\788b20afb37c4526182566e7a7e0d5bc\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\8288def4b06d64e4eaa686168331c8bf\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\a05447562dc14202952d65ad83a5a452\workspace\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\01c81e75304ae66cfeed8df6df00aa5a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\32d83b4993cef400eab5a980b661e1c4\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4a86510e4cb601abb9ba1dc46fbc75b6\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\879ca296a39fcbaae97be3811d877b0c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\3609ba4a5b411d484c942c1314493d78\workspace\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d4842549eaae24e4bef09382f9705261\workspace\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fd15d9d7883a60ab8dfc6bbb00e4df46\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fa06f67c2bd9feaa51fcda6f9081ec3c\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\eef188f9bb9c4d98e4d248c956f7dc2f\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e412e9d8ea8ceeea6e2ae1ae3cf9aa08\workspace\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:5:22-74
+application
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:7:5-75:19
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:7:5-75:19
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\91bf9c389d39bc5e529ff1c6ae3923a5\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\91bf9c389d39bc5e529ff1c6ae3923a5\workspace\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e6b3998ca2c1baedabab38ae0586e159\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e6b3998ca2c1baedabab38ae0586e159\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\01c81e75304ae66cfeed8df6df00aa5a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\01c81e75304ae66cfeed8df6df00aa5a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:12:9-36
+	android:fullBackupContent
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:13:9-45
+	android:icon
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:11:9-40
+	android:allowBackup
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:15:9-52
+	android:dataExtractionRules
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.nkbtradesphere.ui.auth.NewPasswordActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:17:13-56
+activity#com.example.nkbtradesphere.ui.auth.ResetPasswordActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:20:13-58
+activity#com.example.nkbtradesphere.ui.auth.CreateProfileActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.example.nkbtradesphere.ui.auth.LoginActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:26:13-50
+activity#com.example.nkbtradesphere.ui.profile.ProfileEditActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:29:13-59
+activity#com.example.nkbtradesphere.ui.onboarding.InterestsOnboardingActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:32:13-70
+activity#com.example.nkbtradesphere.ui.onboarding.OnboardingInterestScreen
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:35:13-67
+activity#com.example.nkbtradesphere.ui.welcome.WelcomeActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:38:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:40:13-43:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:42:27-74
+activity#com.example.nkbtradesphere.ui.main.MainActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:45:9-49:20
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:46:13-49
+activity#com.example.nkbtradesphere.ui.product.ProductDetailActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:50:9-52:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:51:13-61
+activity#com.example.nkbtradesphere.ui.product.CheckoutActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:54:13-56
+activity#com.example.nkbtradesphere.ui.home.AllCategoriesActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:57:13-58
+activity#com.example.nkbtradesphere.ui.home.CategoryListingsActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:60:13-61
+activity#com.example.nkbtradesphere.ConversationDetailActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:62:9-64:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:63:13-55
+activity#com.example.nkbtradesphere.NotificationCenterActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:65:9-67:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:66:13-55
+activity#com.example.nkbtradesphere.MyListingsActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:68:9-70:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:70:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:69:13-47
+activity#com.example.nkbtradesphere.SavedItemsActivity
+ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:71:9-73:40
+	android:exported
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml:72:13-47
+uses-sdk
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\91bf9c389d39bc5e529ff1c6ae3923a5\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\91bf9c389d39bc5e529ff1c6ae3923a5\workspace\transformed\material-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e6b3998ca2c1baedabab38ae0586e159\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e6b3998ca2c1baedabab38ae0586e159\workspace\transformed\constraintlayout-2.2.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\231f1a58326eecfb2cb8f67ea897931a\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\231f1a58326eecfb2cb8f67ea897931a\workspace\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\c5f643bb930d6f6f6c81e796734080f9\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\c5f643bb930d6f6f6c81e796734080f9\workspace\transformed\appcompat-1.7.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4fa7333f1dc24511d1c4cbd659df5514\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4fa7333f1dc24511d1c4cbd659df5514\workspace\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\df11bf7ddf3d65f6e5d7b532b57a05b1\workspace\transformed\viewpager2-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\df11bf7ddf3d65f6e5d7b532b57a05b1\workspace\transformed\viewpager2-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\cccefe9112c123e6e3e96bca4094e0f7\workspace\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\cccefe9112c123e6e3e96bca4094e0f7\workspace\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bc3ade63ed36fcf23ba14dd8c5181319\workspace\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bc3ade63ed36fcf23ba14dd8c5181319\workspace\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\446fa7eb4f3c6f23ef2c47ac16ad23ea\workspace\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\446fa7eb4f3c6f23ef2c47ac16ad23ea\workspace\transformed\flexbox-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d03e0f43523c59ac21b12ac1339b8183\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d03e0f43523c59ac21b12ac1339b8183\workspace\transformed\core-splashscreen-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\598868d9412f3b970d52627ff940f4d0\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\598868d9412f3b970d52627ff940f4d0\workspace\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\0213f09af86291e56ee782c645b39e16\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\0213f09af86291e56ee782c645b39e16\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47d9db021f01f8324eb59a5fb5490163\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47d9db021f01f8324eb59a5fb5490163\workspace\transformed\graphics-shapes-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\079b1e0734101344d19c87f949cd595e\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\079b1e0734101344d19c87f949cd595e\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f4961653a3d465575b24bc7337407af1\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f4961653a3d465575b24bc7337407af1\workspace\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f394b7cf309e817a297fc50861c747e2\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f394b7cf309e817a297fc50861c747e2\workspace\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2b123f0b0d98e55a0f93b646879649e8\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2b123f0b0d98e55a0f93b646879649e8\workspace\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2a034a0dbaf1816c7d53bc955273bb20\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2a034a0dbaf1816c7d53bc955273bb20\workspace\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f22528ff1c2294e1b21c25406c37f54d\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\f22528ff1c2294e1b21c25406c37f54d\workspace\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\405da2c93fb0b5ad51179ce147e3e2a3\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\405da2c93fb0b5ad51179ce147e3e2a3\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bf9aebcff47c1a21d3e44ddc827bc0a9\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bf9aebcff47c1a21d3e44ddc827bc0a9\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2806b68d0841c53d64ce2c129ccd67a7\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\2806b68d0841c53d64ce2c129ccd67a7\workspace\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\476850254185f5c60b1a62bfb96c959d\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\476850254185f5c60b1a62bfb96c959d\workspace\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\aade5fc129a8ffeec201aaf0561ba6d2\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\aade5fc129a8ffeec201aaf0561ba6d2\workspace\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47f13f2c8dbdda4a6fba6436aae40bb3\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\47f13f2c8dbdda4a6fba6436aae40bb3\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\875dabbe62530ff5d1247c2c76423093\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\875dabbe62530ff5d1247c2c76423093\workspace\transformed\dynamicanimation-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\ec0ce40d766e0a5b46752ef220b65342\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\ec0ce40d766e0a5b46752ef220b65342\workspace\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\788b20afb37c4526182566e7a7e0d5bc\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\788b20afb37c4526182566e7a7e0d5bc\workspace\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\8288def4b06d64e4eaa686168331c8bf\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\8288def4b06d64e4eaa686168331c8bf\workspace\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\a05447562dc14202952d65ad83a5a452\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\a05447562dc14202952d65ad83a5a452\workspace\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\01c81e75304ae66cfeed8df6df00aa5a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\01c81e75304ae66cfeed8df6df00aa5a\workspace\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\32d83b4993cef400eab5a980b661e1c4\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\32d83b4993cef400eab5a980b661e1c4\workspace\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4a86510e4cb601abb9ba1dc46fbc75b6\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\4a86510e4cb601abb9ba1dc46fbc75b6\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\879ca296a39fcbaae97be3811d877b0c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\879ca296a39fcbaae97be3811d877b0c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\3609ba4a5b411d484c942c1314493d78\workspace\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\3609ba4a5b411d484c942c1314493d78\workspace\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d4842549eaae24e4bef09382f9705261\workspace\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\khoda\.gradle\caches\9.3.1\transforms\d4842549eaae24e4bef09382f9705261\workspace\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fd15d9d7883a60ab8dfc6bbb00e4df46\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fd15d9d7883a60ab8dfc6bbb00e4df46\workspace\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fa06f67c2bd9feaa51fcda6f9081ec3c\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\fa06f67c2bd9feaa51fcda6f9081ec3c\workspace\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\eef188f9bb9c4d98e4d248c956f7dc2f\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\eef188f9bb9c4d98e4d248c956f7dc2f\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e412e9d8ea8ceeea6e2ae1ae3cf9aa08\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\e412e9d8ea8ceeea6e2ae1ae3cf9aa08\workspace\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\khoda\.gradle\caches\9.3.1\transforms\42f9652262efc4d9f55e9625ad8d9c0f\workspace\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\79543744a47c3c2a71842158d4749361\workspace\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\khoda\.gradle\caches\9.3.1\transforms\dfded51402412ba4f3bd8136b13cf829\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.example.nkbtradesphere.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.nkbtradesphere.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\24df1b43e5bf24d7a3d7ff4599f06123\workspace\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\khoda\.gradle\caches\9.3.1\transforms\bd95cfa85a36c89a54aeb42f2a19afbf\workspace\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

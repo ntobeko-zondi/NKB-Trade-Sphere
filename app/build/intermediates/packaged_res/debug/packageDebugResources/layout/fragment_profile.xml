@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/nav_scroll_bottom_inset"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Profile Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="12dp"
+            android:paddingBottom="16dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_avatar_bg" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtProfileName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="Your Name"
+                    android:textColor="@color/text_primary"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:ellipsize="end" />
+
+                <ImageButton
+                    android:id="@+id/btnEditName"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="Edit Name"
+                    android:src="@drawable/baseline_drive_file_move_outline_24"
+                    app:tint="@color/orange_primary" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Stats Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <!-- Listings Count -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_card_bg"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_home_24"
+                    android:contentDescription="Listings"
+                    app:tint="@color/orange_primary"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tvListingsCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Listings"
+                    android:textColor="@color/text_hint"
+                    android:textSize="10sp"
+                    android:layout_marginTop="1dp" />
+            </LinearLayout>
+
+            <!-- Rating -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_card_bg"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_check_circle_24"
+                    android:contentDescription="Rating"
+                    app:tint="@color/orange_primary"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tvRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N/A"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rating"
+                    android:textColor="@color/text_hint"
+                    android:textSize="10sp"
+                    android:layout_marginTop="1dp" />
+            </LinearLayout>
+
+            <!-- Saved Items -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_card_bg"
+                android:orientation="vertical"
+                android:padding="12dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/baseline_fact_check_24"
+                    android:contentDescription="Saved"
+                    app:tint="@color/orange_primary"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/tvSavedCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/text_primary"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saved"
+                    android:textColor="@color/text_hint"
+                    android:textSize="10sp"
+                    android:layout_marginTop="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <!-- My Listings Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMyListings"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="My Listings"
+                android:textAllCaps="false"
+                android:textColor="@color/card_bg"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/orange_primary"
+                app:icon="@drawable/ic_home"
+                app:iconGravity="textStart" />
+
+            <!-- Saved Items Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSavedItems"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Wishlist"
+                android:textAllCaps="false"
+                android:textColor="@color/card_bg"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="@color/orange_primary"
+                app:icon="@drawable/ic_wishlist"
+                app:iconGravity="textStart" />
+
+            <!-- Dark Mode Toggle -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_card_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginBottom="10dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="Theme"
+                    android:src="@drawable/baseline_home_24"
+                    app:tint="@color/orange_primary" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dark Mode"
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp"
+                    android:layout_marginStart="16dp" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switchDarkMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- Logout Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:textColor="@color/card_bg"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#D32F2F"
+                app:icon="@drawable/baseline_error_24"
+                app:iconGravity="textStart" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeleteAccount"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Delete Account"
+                android:textAllCaps="false"
+                android:textColor="#D32F2F"
+                android:textSize="15sp"
+                app:strokeColor="#D32F2F"
+                app:icon="@drawable/baseline_error_24"
+                app:iconGravity="textStart" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

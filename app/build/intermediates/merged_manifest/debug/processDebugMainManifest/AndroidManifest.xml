@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nkbtradesphere"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <permission
+        android:name="com.example.nkbtradesphere.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.nkbtradesphere.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/h_logo"
+        android:label="TradeSphere"
+        android:roundIcon="@drawable/h_logo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.NKBTradeSphere" >
+        <activity
+            android:name="com.example.nkbtradesphere.ui.auth.NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.auth.ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.auth.CreateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.profile.ProfileEditActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.onboarding.InterestsOnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.onboarding.OnboardingInterestScreen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.welcome.WelcomeActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nkbtradesphere.ui.main.MainActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name="com.example.nkbtradesphere.ui.product.ProductDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.product.CheckoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.home.AllCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ui.home.CategoryListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.ConversationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.NotificationCenterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.MyListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.nkbtradesphere.SavedItemsActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.nkbtradesphere.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

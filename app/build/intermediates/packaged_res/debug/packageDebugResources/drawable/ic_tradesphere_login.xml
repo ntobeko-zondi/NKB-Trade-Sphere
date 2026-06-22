@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Globe arc over the storefront -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M18,52 C18,28 38,12 60,12 C82,12 102,28 102,52"
+        android:strokeWidth="5"
+        android:strokeColor="@color/white"
+        android:strokeLineCap="round" />
+    <!-- Storefront / awning -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M28,56 L60,38 L92,56 L92,60 L28,60 Z" />
+    <!-- Shop body -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M32,60 L88,60 L86,98 C85.5,102 82,105 77,105 L43,105 C38,105 34.5,102 34,98 Z" />
+    <!-- Door -->
+    <path
+        android:fillColor="@color/orange"
+        android:pathData="M52,72 L68,72 L68,105 L52,105 Z" />
+    <!-- Window -->
+    <path
+        android:fillColor="@color/orange_mid"
+        android:pathData="M38,66 L48,66 L48,76 L38,76 Z" />
+</vector>

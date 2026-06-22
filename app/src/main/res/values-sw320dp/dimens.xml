@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_float_chip_size">40dp</dimen>
+    <dimen name="nav_float_corner">20dp</dimen>
+    <dimen name="nav_float_icon_size">21dp</dimen>
+    <dimen name="nav_float_bar_search_icon_size">26dp</dimen>
+    <dimen name="nav_float_label_text_size">9.5sp</dimen>
+    <dimen name="nav_float_row_pad_h">10dp</dimen>
+    <dimen name="nav_float_chip_gap">6dp</dimen>
+    <dimen name="nav_float_search_max_width">168dp</dimen>
+    <dimen name="nav_float_search_min_width">96dp</dimen>
+</resources>

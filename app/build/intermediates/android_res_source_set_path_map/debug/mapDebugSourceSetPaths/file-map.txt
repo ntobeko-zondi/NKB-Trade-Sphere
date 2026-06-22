@@ -1,0 +1,7 @@
+com.example.nkbtradesphere.app-pngs-0 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\build\generated\res\pngs\debug
+com.example.nkbtradesphere.app-updated_navigation_xml-1 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\build\generated\updated_navigation_xml\debug
+com.example.nkbtradesphere.app-packageDebugResources-2 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.nkbtradesphere.app-packageDebugResources-3 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.nkbtradesphere.app-debug-4 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.nkbtradesphere.app-debug-5 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\debug\res
+com.example.nkbtradesphere.app-main-6 C:\Users\khoda\OneDrive\Desktop\Latest\NKB-Trade-Sphere\app\src\main\res
