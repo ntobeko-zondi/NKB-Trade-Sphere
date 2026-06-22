@@ -121,7 +121,7 @@ This separation improves maintainability, scalability, and testability.
 ### Authentication
 
 ### - Landing Screen
-<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/22c64ca5-6701-464a-8b5b-b54a9043cb2f" />### - Signup Screen<img width="332" height="628" alt="Signup Page" src="https://github.com/user-attachments/assets/44ba2036-cdfe-4ae5-903f-2d3bb6b7c58a" />
+<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/22c64ca5-6701-464a-8b5b-b54a9043cb2f" /> ### - Signup Screen <img width="332" height="628" alt="Signup Page" src="https://github.com/user-attachments/assets/44ba2036-cdfe-4ae5-903f-2d3bb6b7c58a" />
 
 ### Pop-Up Details
 
