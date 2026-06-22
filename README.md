@@ -1,4 +1,4 @@
-<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/623a9528-681d-487c-bebc-4e1c6a25393c" /># 🚀 TradeSphere (NKB Trade Sphere)
+ 🚀 TradeSphere (NKB Trade Sphere)
 
 <div align="center">
 
