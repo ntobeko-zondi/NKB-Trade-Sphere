@@ -1,4 +1,4 @@
-# 🚀 TradeSphere (NKB Trade Sphere)
+<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/623a9528-681d-487c-bebc-4e1c6a25393c" /># 🚀 TradeSphere (NKB Trade Sphere)
 
 <div align="center">
 
@@ -120,19 +120,51 @@ This separation improves maintainability, scalability, and testability.
 
 ### Authentication
 
-![Login Screen](screenshots/login.png)
+![Landing Screen]
+<img width="287" height="600" alt="Landing Page" src="https://github.com/user-attachments/assets/22c64ca5-6701-464a-8b5b-b54a9043cb2f" />
 
-### Home Feed
+![Signup Screen]
+<img width="332" height="628" alt="Signup Page" src="https://github.com/user-attachments/assets/44ba2036-cdfe-4ae5-903f-2d3bb6b7c58a" />
 
-![Home Screen](screenshots/home.png)
+### Pop-Up Details
 
-### Product Details
+![Pop-Up Screen]
+<img width="287" height="607" alt="Popup Page" src="https://github.com/user-attachments/assets/8017fd91-fe5c-4bca-83b3-09602bf0a945" />
 
-![Product Details](screenshots/product_details.png)
+### Home Page
+
+![Home Screen]
+<img width="318" height="641" alt="Home Page" src="https://github.com/user-attachments/assets/9e35ce83-306a-44b7-996f-b0433cdd58a1" />
+
+### Search Page 
+
+![Search Screen]
+<img width="315" height="671" alt="Search Page" src="https://github.com/user-attachments/assets/121afc74-945d-444f-b09b-77c8e715c7b1" />
+
+### Sell Page 
+
+![Sell Screen]
+<img width="290" height="597" alt="Sell Page" src="https://github.com/user-attachments/assets/52d2eb87-bf4b-47c9-8ea7-baa738bff607" />
+
+
+![Buying Screen]
+<img width="316" height="636" alt="Buying Page" src="https://github.com/user-attachments/assets/f5feea07-f063-4840-9f70-f9d589d79daa" />
+
+### Messages Page 
+
+![Message Screen]
+<img width="295" height="600" alt="Messages Page" src="https://github.com/user-attachments/assets/ced5f94e-a489-4be5-b62c-44c290cc8482" />
 
 ### Profile
 
-![Profile](screenshots/profile.png)
+![Profile Screen]
+<img width="295" height="590" alt="Profile Page" src="https://github.com/user-attachments/assets/35901aa6-00df-4813-adee-be4301d66772" />
+
+![Wishlist Screen]
+<img width="293" height="595" alt="Wishlist Page" src="https://github.com/user-attachments/assets/b1b0ef0b-9d61-4e2c-815b-dded34be869e" />
+
+
+
 
 ---
 
